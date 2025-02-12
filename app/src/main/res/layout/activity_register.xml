@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="30dp"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+    
+    <ImageView
+        android:id="@+id/ImageViewHello"
+        android:layout_width="215dp"
+        android:layout_height="65dp"
+        android:src="@drawable/hello"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+    
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
+        android:hint="@string/name"
+        android:inputType="text"
+
+
+        />
+
+    <EditText
+        android:id="@+id/EditTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
+        android:hint="@string/last_name"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/EditTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+
+        />
+    
+    <CheckBox
+        android:id="@+id/CheckBoxTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
+        android:textStyle="italic"
+        android:text="@string/terms"
+
+        />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/magenta"
+        android:layout_marginTop="30dp"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+</LinearLayout>

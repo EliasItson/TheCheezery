@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewBackground"
         android:layout_width="432dp"
         android:layout_height="553dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,37 +19,38 @@
         app:srcCompat="@drawable/thecheezery" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
-        android:text="Welcome to The Cheezery!"
+        android:layout_marginBottom="10dp"
+        android:text="@string/welcome_text"
         android:textColor="@color/white"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDescription"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="358dp"
-        android:layout_height="61dp"
-        android:layout_marginBottom="40dp"
-        android:text="Welcome to the most wonderful desserts ever seen (and tasted) by the human being."
+        android:id="@+id/textViewDescription"
+        android:layout_width="355dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/welcome_description"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@color/magenta"
-        android:text="GET STARTED!"
+        android:text="@string/button_start"
+        android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
