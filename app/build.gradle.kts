@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "elias.jorge.thecheezery"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "elias.jorge.thecheezery"

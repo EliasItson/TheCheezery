@@ -6,10 +6,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductosActivity">
+    tools:context=".ProductsActivity">
 
     <ImageView
-        android:id="@+id/ImageViewColdDrinks"
+        android:id="@+id/imageViewColdDrinks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/colddrinks"
@@ -18,7 +18,7 @@
         />
 
     <ListView
-        android:id="@+id/ListViewProductos"
+        android:id="@+id/listViewProductos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 

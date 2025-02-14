@@ -11,7 +11,7 @@
     tools:context=".RegisterActivity">
     
     <ImageView
-        android:id="@+id/ImageViewHello"
+        android:id="@+id/imageViewHello"
         android:layout_width="215dp"
         android:layout_height="65dp"
         android:src="@drawable/hello"
@@ -22,7 +22,7 @@
         />
     
     <EditText
-        android:id="@+id/EditTextName"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/input_margin"
@@ -33,7 +33,7 @@
         />
 
     <EditText
-        android:id="@+id/EditTextLastName"
+        android:id="@+id/editTextLastName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/input_margin"
@@ -43,7 +43,7 @@
         />
 
     <EditText
-        android:id="@+id/EditTextEmail"
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/input_margin"
@@ -53,7 +53,7 @@
         />
 
     <EditText
-        android:id="@+id/EditTextPassword"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/input_margin"
@@ -63,7 +63,7 @@
         />
     
     <CheckBox
-        android:id="@+id/CheckBoxTerms"
+        android:id="@+id/checkBoxTerms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/input_margin"
